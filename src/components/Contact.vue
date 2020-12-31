@@ -6,12 +6,12 @@
     </div>
     <div class="contact-body">Looking to work together on a project, make a new connection, or learn about ranching and rodeo? Don't hesitate to reach out!</div>
     <div class="contact-icon-container">
-            <!-- <a class="icon-link" href="mailto:burgess.kris10@gmail.com">
-        <svg class="icon twitter" version="1.1" xmlns="http://www.w3.org/2000/svg" width="55" height="64" viewBox="0 0 55 64">
+      <a class="icon-link" href="mailto:burgess.kris10@gmail.com">  
+        <svg class="icon twitter" version="1.1" xmlns="http://www.w3.org/2000/svg" width="55" height="64" viewBox="0 0 24 24" >
           <title>Twitter</title>
-          <path width="100%" d="M350 400H50c-27.6 0-50-22.4-50-50V50C0 22.4 22.4 0 50 0h300c27.6 0 50 22.4 50 50v300 C400 377.6 377.6 400 350 400z"></path>
+          <path  d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-.139 9.237c.209 4.617-3.234 9.765-9.33 9.765-1.854 0-3.579-.543-5.032-1.475 1.742.205 3.48-.278 4.86-1.359-1.437-.027-2.649-.976-3.066-2.28.515.098 1.021.069 1.482-.056-1.579-.317-2.668-1.739-2.633-3.26.442.246.949.394 1.486.411-1.461-.977-1.875-2.907-1.016-4.383 1.619 1.986 4.038 3.293 6.766 3.43-.479-2.053 1.08-4.03 3.199-4.03.943 0 1.797.398 2.395 1.037.748-.147 1.451-.42 2.086-.796-.246.767-.766 1.41-1.443 1.816.664-.08 1.297-.256 1.885-.517-.439.656-.996 1.234-1.639 1.697z" ></path>
         </svg>
-      </a> -->
+      </a>
       <a class="icon-link" href="https://github.com/kristenburgess25" target="_blank">
         <svg class="icon github" version="1.1" xmlns="http://www.w3.org/2000/svg" width="55" height="64" viewBox="0 0 55 64">
           <title>Github</title>
@@ -45,6 +45,7 @@ export default {
 </script>
 
 <style lang="css">
+
   .contact-body {
     line-height: 1.5;
   }
