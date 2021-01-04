@@ -228,8 +228,8 @@ export default {
 
 <style lang="css">
   .hero-title {
-    font-size: 6rem;
-    margin: 1rem 0 2rem;
+    font-size: 4rem;
+    margin: 1rem 0 0rem;
     text-align: center;
   }
 
