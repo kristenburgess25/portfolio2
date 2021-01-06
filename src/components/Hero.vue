@@ -228,9 +228,10 @@ export default {
 
 <style lang="css">
   .hero-title {
-    font-size: 6rem;
-    margin: 1rem 0 2rem;
+    font-size: 4rem;
+    margin: 1rem 0 0rem;
     text-align: center;
+    letter-spacing: 5px;
   }
 
   .p5-wrapper {
@@ -239,6 +240,6 @@ export default {
     margin: -0.25rem 0;
     overflow: hidden;
     width: 100%;
-    margin-bottom: 25px;
+    margin-bottom: 45px;
   }
 </style>
