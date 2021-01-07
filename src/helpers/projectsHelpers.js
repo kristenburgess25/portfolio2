@@ -1,4 +1,11 @@
 export default [
+    {
+    body: 'A baking blog that I recently started working on.',
+    styleclass: 'lights-out',
+    technologies: 'Vue.js, Firebase',
+    title: '🍪 Kristen Loves Cookies',
+    url: 'https://kristenlovescookies.web.app'
+  },
   {
     body: 'This simple weather app uses Google geolocation API to find current location and access local weather. The user can also "Pin" or save certain cities.',
     styleclass: 'perpro',
@@ -29,18 +36,11 @@ export default [
     url: 'https://github.com/kswhyte/nimble-network',
     liveUrl: 'https://nimblenetwork-d13c3.firebaseapp.com/'
   },
-  // {
-  //   body: 'A logic game with the objective of turning off all of the lights.',
-  //   styleclass: 'lights-out',
-  //   technologies: 'jQuery, Mocha, Chai, Object Oriented Programming',
-  //   title: '🚙  Omnique',
-  //   url: 'https://github.com/bgdfry/game-time-lights-out'
-  // },
-  // {
-  //   body: 'An npm package that allows users to convert their local audio files to dataURLs for use via Electron.',
-  //   styleclass: 'eac',
-  //   technologies: 'Javascript, Babel',
-  //   title: '🎶 electron-audio-conversion',
-  //   url: 'https://github.com/Jeff-Duke/electron-audio-conversion'
-  // }
+  {
+    body: 'This page that you are looking at right here',
+    styleclass: 'eac',
+    technologies: 'Vue.js, Parcel',
+    title: '👩‍💻 Dev Portfolio',
+    url: 'https://github.com/kristenburgess25'
+  }
 ]
