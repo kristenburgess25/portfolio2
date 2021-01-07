@@ -1,6 +1,6 @@
 export default [
     {
-    body: 'A baking blog that I recently started working on.',
+    body: 'A baking blog that I recently started.',
     styleclass: 'lights-out',
     technologies: 'Vue.js, Firebase',
     title: '🍪 Kristen Loves Cookies',
