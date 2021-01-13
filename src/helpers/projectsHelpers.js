@@ -22,11 +22,11 @@ export default [
     url: 'https://github.com/kristenburgess25/game-time'
   },
   {
-    body: 'A simple task manager, allowing users to add tasks to a ToDo list, rank them by importance, and sort/filter/search accordingly.',
-    styleclass: 'napkin-app',
-    technologies: 'jQuery, SASS/SCSS, Selenium',
-    title: '📝 2DoBox',
-    url: 'https://github.com/kristenburgess25/2DoBox-Pivot'
+    body: 'An app for finding and tracking barrel racing events.',
+    styleclass: 'eac',
+    technologies: 'React.js, Redux, Firebase',
+    title: '🛢 Can Chaser',
+    url: 'https://github.com/kristenburgess25'
   },
   {
     body: 'A basic contact management app, intended for use at networking events. Users sign in through Google, and their contacts are stored in a user-specific Google Firebase database.',
@@ -37,10 +37,10 @@ export default [
     liveUrl: 'https://nimblenetwork-d13c3.firebaseapp.com/'
   },
   {
-    body: 'This page that you are looking at right here',
-    styleclass: 'eac',
-    technologies: 'Vue.js, Parcel',
-    title: '👩‍💻 Dev Portfolio',
-    url: 'https://github.com/kristenburgess25'
-  }
+    body: 'A simple task manager, allowing users to add tasks to a ToDo list, rank them by importance, and sort/filter/search accordingly.',
+    styleclass: 'napkin-app',
+    technologies: 'jQuery, SASS/SCSS, Selenium',
+    title: '📝 2DoBox',
+    url: 'https://github.com/kristenburgess25/2DoBox-Pivot'
+  },
 ]

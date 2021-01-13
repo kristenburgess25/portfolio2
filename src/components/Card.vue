@@ -4,7 +4,7 @@
     <div class="card-body">{{ body }}</div>
     <div class="card-technologies">{{technologies}}</div>
     <div class="view-project">View Project →</div>
-    <div class="view-project">View Code →</div>
+    <!-- <div class="view-project">View Code →</div> -->
   </div>
 </template>
 
@@ -65,6 +65,11 @@ export default {
     border-radius: 1rem;
     font-size: 0.875rem;
     padding: 0.25rem 0.75rem;
+  }
+
+  .view-project:hover {
+    fill: #a044ff;
+    cursor: pointer;
   }
 
   @media screen and (min-width: 48rem) {
