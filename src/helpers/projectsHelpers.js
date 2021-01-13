@@ -4,7 +4,7 @@ export default [
     styleclass: 'lights-out',
     technologies: 'Vue.js, Firebase',
     title: '🍪 Kristen Loves Cookies',
-    url: 'https://kristenlovescookies.web.app'
+    url: 'https://kristenlovescookies.com'
   },
   {
     body: 'This simple weather app uses Google geolocation API to find current location and access local weather. The user can also "Pin" or save certain cities.',
@@ -29,7 +29,7 @@ export default [
     url: 'https://github.com/kristenburgess25'
   },
   {
-    body: 'A basic contact management app, intended for use at networking events. Users sign in through Google, and their contacts are stored in a user-specific Google Firebase database.',
+    body: 'A basic contact management app, intended for mobile use at networking events. Users sign in through Google. Contacts are stored in a user-specific Google Firebase database.',
     styleclass: 'amptron',
     technologies: 'React.js, Google Firebase, Enzyme, SASS/SCSS',
     title: '🤝 NimbleNetwork',
