@@ -27,7 +27,11 @@
           <path d="M46.719 20v-6.719h-13.438v6.719h13.438zM66.719 20c3.75 0 6.563 2.969 6.563 6.719v36.563c0 3.75-2.813 6.719-6.563 6.719h-53.438c-3.75 0-6.563-2.969-6.563-6.719v-36.563c0-3.75 2.813-6.719 6.563-6.719h13.438v-6.719c0-3.75 2.813-6.563 6.563-6.563h13.438c3.75 0 6.563 2.813 6.563 6.563v6.719h13.438z"></path>
         </svg>
         <h2>Work</h2>
-        <div> Prior to working in the tech industry, I was a paralegal. In tech, I have worked for a number of startups and have filled a wide variety of roles- sales, marketing, product management, project management, development, tech lead. I have a very diverse set of skills, and I pride myself on my ability to wear many hats. </div>
+        <div> Prior to working in the tech industry, I was a paralegal. In tech, I have worked for a number of startups and have filled a wide variety of roles- sales, marketing, product management, project management, development, tech lead. I have a very diverse set of skills, and I pride myself on my ability to wear many hats. 
+        <br>
+        <a id="resume-link" href="https://resume.creddle.io/resume/e2ocwahn9w" target="_blank"> <h3> Résumé </h3> </a>
+
+        </div>
       </div>
       <div class="icon-content">
         <svg class="about-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
@@ -57,6 +61,18 @@ export default {
 </script>
 
 <style lang="css">
+
+h3 {
+  color:#a044ff;
+  border-radius: 0.5rem;
+}
+
+h3:hover {
+  color: white;
+  background-color: #a044ff;
+  cursor: pointer;
+}
+
 .cool {
   height: 100rem;
 }
