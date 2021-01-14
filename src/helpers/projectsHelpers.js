@@ -28,7 +28,8 @@ export default [
     styleclass: 'eac',
     technologies: 'React.js, Redux, Firebase',
     title: '🛢 Can Chaser',
-    url: 'https://github.com/kristenburgess25'
+    url: 'https://github.com/kristenburgess25/CanChaser',
+    liveUrl: '',
   },
   {
     body: 'A basic contact management app, intended for mobile use at networking events. Users sign in through Google. Contacts are stored in a user-specific Google Firebase database.',

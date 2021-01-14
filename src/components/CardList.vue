@@ -6,6 +6,8 @@
           :title="card.title"
           :body="card.body"
           :technologies="card.technologies"
+          :liveUrl="card.liveUrl"
+          :url="card.url"
         >
         </card>
       </a>
