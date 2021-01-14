@@ -1,7 +1,7 @@
 <template>
   <div class="card-list">
     <div class='card' :class="card.styleclass" v-for="card in helpers" :key="card.title">
-      <a :href="card.url" target="_blank">
+      <a :href="card.liveUrl" target="_blank">
         <card
           :title="card.title"
           :body="card.body"
@@ -42,7 +42,7 @@ export default {
   .card {
     border-radius: 0.25rem;
     box-shadow: 2px 2px 8px 0 rgba(0,0,0,.2);
-    cursor: pointer;
+
     flex: 1;
     min-height: 10.9375rem;
     margin: 1rem;
@@ -53,10 +53,12 @@ export default {
 
   .card > a {
     text-decoration: none;
+    cursor: default;
   }
 
   .card:hover {
     transform: scale(1.05);
+    cursor: default;
   }
 
   .perpro {

@@ -3,8 +3,11 @@
     <div class="card-title">{{ title }}</div>
     <div class="card-body">{{ body }}</div>
     <div class="card-technologies">{{technologies}}</div>
-    <div class="view-project">View Project →</div>
-    <!-- <div class="view-project">View Code →</div> -->
+    <div class="view-project-container">
+    <btn class="view-project">Live Site →</btn>
+    <btn class="view-project">The Code →</btn>
+    </div>
+
   </div>
 </template>
 
@@ -60,6 +63,12 @@ export default {
     font-size: 0.95rem;
   }
 
+  .view-project-container {
+    width: 88%;
+    display: flex;
+    justify-content: space-between;
+  }
+
   .view-project {
     background: rgba(255, 255, 255, 0.3);
     border-radius: 1rem;
@@ -67,7 +76,7 @@ export default {
     padding: 0.25rem 0.75rem;
   }
 
-  .view-project:hover {
+  btn:hover {
     fill: #a044ff;
     cursor: pointer;
   }
