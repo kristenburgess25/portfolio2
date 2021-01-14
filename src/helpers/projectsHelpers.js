@@ -4,7 +4,8 @@ export default [
     styleclass: 'lights-out',
     technologies: 'Vue.js, Firebase',
     title: '🍪 Kristen Loves Cookies',
-    url: 'https://kristenlovescookies.com'
+    url: 'https://github.com/kristenburgess25/kbaked',
+    liveUrl: 'https://www.kristenlovescookies.com'
   },
   {
     body: 'This simple weather app uses Google geolocation API to find current location and access local weather. The user can also "Pin" or save certain cities.',
@@ -19,14 +20,16 @@ export default [
     styleclass: 'crunchy-ratings',
     technologies: 'JavaScript/jQuery',
     title: '🎃 Hangman Game',
-    url: 'https://github.com/kristenburgess25/game-time'
+    url: 'https://github.com/kristenburgess25/game-time',
+    liveUrl: 'https://kristenburgess25.github.io/game-time/'
   },
   {
     body: 'An app for finding and tracking barrel racing events.',
     styleclass: 'eac',
     technologies: 'React.js, Redux, Firebase',
     title: '🛢 Can Chaser',
-    url: 'https://github.com/kristenburgess25'
+    url: 'https://github.com/kristenburgess25/CanChaser',
+    liveUrl: '',
   },
   {
     body: 'A basic contact management app, intended for mobile use at networking events. Users sign in through Google. Contacts are stored in a user-specific Google Firebase database.',
@@ -41,6 +44,7 @@ export default [
     styleclass: 'napkin-app',
     technologies: 'jQuery, SASS/SCSS, Selenium',
     title: '📝 2DoBox',
-    url: 'https://github.com/kristenburgess25/2DoBox-Pivot'
+    url: 'https://github.com/kristenburgess25/2DoBox-Pivot',
+    liveUrl: 'https://kristenburgess25.github.io/2DoBox-Pivot/'
   },
 ]

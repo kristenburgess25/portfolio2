@@ -3,8 +3,10 @@
     <div class="card-title">{{ title }}</div>
     <div class="card-body">{{ body }}</div>
     <div class="card-technologies">{{technologies}}</div>
-    <div class="view-project">View Project →</div>
-    <!-- <div class="view-project">View Code →</div> -->
+    <div class="view-project-container">
+      <div v-on:click="handleClick(liveUrl)" class="view-project">Live Site →</div>
+      <div v-on:click="handleClick(url)" class="view-project">The Code →</div>
+    </div>
   </div>
 </template>
 
@@ -15,16 +17,27 @@ export default {
     'title',
     'body',
     'technologies',
-    'url'
+    'url',
+    'liveUrl'
   ],
   data () {
     return {
+    }
+  },
+  methods: {
+    handleClick: function(url) {
+      window.open(url, '_blank');
     }
   }
 }
 </script>
 
 <style lang="css">
+
+  a {
+  text-decoration: none;
+  }
+
   .card-content {
     align-items: flex-start;
     color: #fdfcff;
@@ -60,6 +73,12 @@ export default {
     font-size: 0.95rem;
   }
 
+  .view-project-container {
+    width: 88%;
+    display: flex;
+    justify-content: space-between;
+  }
+
   .view-project {
     background: rgba(255, 255, 255, 0.3);
     border-radius: 1rem;
@@ -68,7 +87,8 @@ export default {
   }
 
   .view-project:hover {
-    fill: #a044ff;
+    color: #a044ff;
+    background-color: white;
     cursor: pointer;
   }
 
