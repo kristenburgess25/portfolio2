@@ -1,22 +1,14 @@
 export default [
     {
-    body: 'A baking blog that I recently started.',
+    body: 'A work-in-progress baking blog that I recently started.',
     styleclass: 'lights-out',
-    technologies: 'Vue.js, Firebase',
+    technologies: 'Vue.js, Vuetify, Google Firebase',
     title: '🍪 Kristen Loves Cookies',
     url: 'https://github.com/kristenburgess25/kbaked',
     liveUrl: 'https://www.kristenlovescookies.com'
   },
   {
-    body: 'This simple weather app uses Google geolocation API to find current location and access local weather. The user can also "Pin" or save certain cities.',
-    styleclass: 'perpro',
-    technologies: 'React.js, Redux, Jest',
-    title: '⛅️ Weather App',
-    url: 'https://github.com/kswhyte/weather-tracker',
-    liveUrl: 'https://kswhyte.github.io/weather-tracker',
-  },
-  {
-    body: 'A fall-themed take on the classic game.',
+    body: 'A fall-themed take on the classic game. Can you guess the secret word before the mummy gets you?',
     styleclass: 'crunchy-ratings',
     technologies: 'JavaScript/jQuery',
     title: '🎃 Hangman Game',
@@ -24,12 +16,20 @@ export default [
     liveUrl: 'https://kristenburgess25.github.io/game-time/'
   },
   {
+    body: 'This simple weather app uses Google geolocation API to find current location and access local weather. The user can also "Pin" or save certain cities. (Must allow access to location to run.)',
+    styleclass: 'perpro',
+    technologies: 'React.js, Redux, Jest',
+    title: '⛅️ Weather App',
+    url: 'https://github.com/kswhyte/weather-tracker',
+    liveUrl: 'https://kswhyte.github.io/weather-tracker',
+  },
+  {
     body: 'An app for finding and tracking barrel racing events.',
     styleclass: 'eac',
     technologies: 'React.js, Redux, Firebase',
     title: '🛢 Can Chaser',
     url: 'https://github.com/kristenburgess25/CanChaser',
-    liveUrl: '',
+    liveUrl: 'https://github.com/kristenburgess25/CanChaser',
   },
   {
     body: 'A basic contact management app, intended for mobile use at networking events. Users sign in through Google. Contacts are stored in a user-specific Google Firebase database.',
