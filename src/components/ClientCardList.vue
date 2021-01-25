@@ -2,12 +2,12 @@
   <div class="card-list">
     <div class='card' :class="card.styleclass" v-for="card in helpers" :key="card.title">
       <a :href="card.url" target="_blank">
-        <card
+        <client-card
           :title="card.title"
           :body="card.body"
           :technologies="card.technologies"
         >
-        </card>
+        </client-card>
       </a>
     </div>
   </div>
@@ -15,11 +15,11 @@
 
 <script>
 import helpers from '../helpers/clients.js'
-import Card from './Card.vue'
+import ClientCard from './ClientCard.vue'
 export default {
   name: 'ClientCardList',
   components: {
-    'card': Card,
+    'client-card': ClientCard,
   },
   data () {
     return {
@@ -59,41 +59,39 @@ export default {
     transform: scale(1.05);
   }
 
-  .perpro {
-    background: #1a2980;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(140deg, #1a2980, #00c6ff); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(140deg, #1a2980, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  .grainbridge {
+    background-image: url("../images/GB_logo.png");
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center;
   }
 
-  .crunchy-ratings {
-    background: #ff8008;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(140deg, #ff8008, #ffc837);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(140deg, #ff8008, #ffc837); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    .agex {
+    background-image: url("../images/agex-logo.svg");
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center;
   }
 
-  .napkin-app {
-    background: #2a0845;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(140deg, #2a0845, #a044ff); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(140deg, #2a0845, #a044ff);
+  .omnique {
+    background-image: url("../images/omnique-logo.png");
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
   }
 
-  .amptron {
-    background: #aa076b;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(140deg, #da195b, #ff4eeb);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(140deg, #da195b, #ff4eeb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  .d360 {
+    background-image: url("../images/dealer-360-logo.jpg");
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center;
   }
 
-  .lights-out {
-    background: #2c7744;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(140deg, #2c7744, #9acd32);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(140deg, #2c7744, #9acd32); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  }
 
-  .eac {
-    background: #d10000;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(140deg, #d10000, #f56416);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(140deg, #d10000, #f56416); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  }
 
   @media screen and (min-width: 48rem) {
     .card-list {

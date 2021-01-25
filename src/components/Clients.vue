@@ -1,7 +1,7 @@
 <template>
   <app-section :styleclass="styleclass">
     <div class="section-title-wrapper">
-      <h1 class="section-title">Clients</h1>
+      <h1 class="section-title">Work</h1>
       <div class="title-underline"></div>
     </div>
     <card-list></card-list>
@@ -19,7 +19,7 @@ export default {
   },
   data () {
     return {
-      styleclass: 'projects-tile',
+      styleclass: 'timeline-tile',
     }
   },
   mounted () {
