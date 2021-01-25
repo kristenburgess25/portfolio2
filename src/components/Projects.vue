@@ -1,7 +1,7 @@
 <template>
   <app-section :styleclass="styleclass">
     <div class="section-title-wrapper">
-      <h1 class="section-title">Projects</h1>
+      <h1 class="section-title">Play</h1>
       <div class="title-underline"></div>
     </div>
     <card-list></card-list>
