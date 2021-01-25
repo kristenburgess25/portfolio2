@@ -63,15 +63,31 @@ export default {
     background-image: url("../images/GB_logo.png");
     background-color: white;
     background-repeat: no-repeat;
-    background-size: 90%;
+    background-size: 80%;
     background-position: center;
   }
 
-    .agex {
+  .agex {
     background-image: url("../images/agex-logo.svg");
     background-color: white;
     background-repeat: no-repeat;
-    background-size: 90%;
+    background-size: 70%;
+    background-position: center;
+  }
+
+  .deviq {
+    background-image: url("../images/deviq-logo3.png");
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+  }
+
+  .transwest {
+    background-image: url("../images/transwest-logo.png");
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 70%;
     background-position: center;
   }
 
@@ -79,7 +95,7 @@ export default {
     background-image: url("../images/omnique-logo.png");
     background-color: white;
     background-repeat: no-repeat;
-    background-size: 60%;
+    background-size: 50%;
     background-position: center;
   }
 

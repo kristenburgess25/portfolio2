@@ -1,7 +1,7 @@
 export default [
     {
     body: 'A work-in-progress baking blog that I recently started.',
-    styleclass: 'lights-out',
+    styleclass: 'amptron',
     technologies: 'Vue.js, Vuetify, Google Firebase',
     title: '🍪 Kristen Loves Cookies',
     url: 'https://github.com/kristenburgess25/kbaked',
@@ -33,7 +33,7 @@ export default [
   },
   {
     body: 'A basic contact management app, intended for mobile use at networking events. Users sign in through Google. Contacts are stored in a user-specific Google Firebase database.',
-    styleclass: 'amptron',
+    styleclass: 'lights-out',
     technologies: 'React.js, Google Firebase, Enzyme, SASS/SCSS',
     title: '🤝 NimbleNetwork',
     url: 'https://github.com/kswhyte/nimble-network',

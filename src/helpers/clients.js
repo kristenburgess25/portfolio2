@@ -17,6 +17,13 @@ export default [
     },
     {
       body: '',
+      styleclass: 'deviq',
+      technologies: '',
+      title: '',
+      url: 'https://www.deviq.io/'
+    },
+    {
+      body: '',
       styleclass: 'omnique',
       technologies: '',
       title: '',
@@ -29,6 +36,13 @@ export default [
       technologies: '',
       title: '',
       url: 'https://www.dlr360.com/'
+    },
+    {
+      body: '',
+      styleclass: 'transwest',
+      technologies: '',
+      title: '',
+      url: 'https://www.transwest.com/'
     },
   ]
   
