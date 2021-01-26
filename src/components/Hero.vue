@@ -234,20 +234,21 @@ export default {
 </script>
 
 <style lang="css">
-@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700;900&display=swap');
 
   .banner-text {
     position: absolute;
-    
-    color: rgb(80,52,85);
+    /* color: #a044ff; */
+    color: #231b4e;
     top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: 'Roboto Slab', serif;
+    font-weight: regular;
     font-size: 3rem;
     margin: 1rem 0 0rem;
     text-align: center;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
   }
 
   img {
