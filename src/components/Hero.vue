@@ -2,23 +2,10 @@
   <app-section :styleclass="styleclass">
 
     <div class="banner-container">
-
- 
-        <!-- <img src="https://i.imgur.com/XizsJ1c.jpg" title="source: imgur.com" /> -->
-
-        <div class="section-title-wrapper">
+      <div class="section-title-wrapper">
         <h2 class="banner-text"> Kristen Burgess </h2>
-         <div class="title-underline"></div>
-        </div>
-
-
-
-      <!-- <vue-p5
-        @preload="preload"
-        @setup="setup"
-        @draw="draw"
-      >
-    </vue-p5> -->
+        <div class="title-underline"></div>
+      </div>
     </div>
   </app-section>
 </template>
@@ -50,7 +37,7 @@ export default {
   .banner-text {
     position: absolute;
     color: #231b4e;
-    top: 10%;
+    top: 8%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: 'Roboto Slab', serif;
@@ -59,23 +46,14 @@ export default {
     margin: 1rem 0 0rem;
     text-align: center;
     letter-spacing: 3px;
-  }
-
-  img {
-    width: 100vw;
-    object-fit: cover;
-    height: 700px;
-
-  }
-
-  
+  } 
 
   .banner-container {
     display: flex;
     justify-content: center;
     overflow: hidden;
     width: 100%;
-    height: 645px;
+    height: 100vh;;
     position: relative;
     text-align: center;
     background: url('https://i.imgur.com/XizsJ1c.jpg') no-repeat center center fixed;
