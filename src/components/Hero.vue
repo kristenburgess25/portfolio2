@@ -1,16 +1,23 @@
 <template>
   <app-section :styleclass="styleclass">
-    <div class="section-title-wrapper">
-      <h1 class="section-title hero-title">Kristen Burgess</h1>
-      <div class="title-underline"></div>
-    </div>
-    <div class="p5-wrapper">
-      <vue-p5
+
+    <div class="banner-container">
+
+ 
+        <img src="https://i.imgur.com/XizsJ1c.jpg" title="source: imgur.com" />
+        <div class="section-title-wrapper">
+        <h2 class="banner-text"> Kristen Burgess </h2>
+         <div class="title-underline"></div>
+        </div>
+
+
+
+      <!-- <vue-p5
         @preload="preload"
         @setup="setup"
         @draw="draw"
       >
-    </vue-p5>
+    </vue-p5> -->
     </div>
   </app-section>
 </template>
@@ -227,19 +234,38 @@ export default {
 </script>
 
 <style lang="css">
-  .hero-title {
-    font-size: 4rem;
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+  .banner-text {
+    position: absolute;
+    
+    color: rgb(80,52,85);
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Roboto Slab', serif;
+    font-size: 3rem;
     margin: 1rem 0 0rem;
     text-align: center;
     letter-spacing: 5px;
   }
 
-  .p5-wrapper {
+  img {
+    width: 100vw;
+    object-fit: cover;
+    height: 700px;
+  }
+
+  .banner-container {
     display: flex;
     justify-content: center;
     margin: -0.25rem 0;
     overflow: hidden;
     width: 100%;
-    margin-bottom: 45px;
+    position: relative;
+    text-align: center;
+    color: white;
+
+    
   }
 </style>
