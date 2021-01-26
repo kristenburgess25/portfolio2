@@ -12,13 +12,11 @@
 
 <script>
 import Section from './Section.vue';
-import VueP5 from 'vue-p5';
 
 export default {
   name: 'Hero',
   components: {
-    'app-section': Section,
-    'vue-p5': VueP5,
+    'app-section': Section
   },
   data () {
     return {
