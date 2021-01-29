@@ -45,7 +45,7 @@ export default {
   }
 
   .projects-tile .title-underline {
-    background: #2B303A;
+    background: #a044ff;
   }
 
 </style>

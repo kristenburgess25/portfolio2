@@ -6,17 +6,12 @@
     </div>
     <div class="about-content">Howdy! My name's Kristen Burgess. I'm a fourth generation cowgirl/rancher and first generation software engineer. I live and work on my family's cattle ranches in the Sandhills of Nebraska. 
     </div>
-    <br>
     <!-- <div class="about-content"> I am entrepreneurial, self-motivated, a quick learner, highly personable, and an exceptional communicator. I work well both independently and collaboratively. I thrive on challenges and am constantly striving to improve and grow.
     </div> -->
     <br>
     <div class="about-content"> Professionally, I am most passionate about bringing creative tech solutions to underserved markets- particularly the agricultural industry. <br><br>  Personally, I am most passionate about world travel, live music, a good (grass-fed Angus) steak, buttery pastries, speedy horses, and a well crafted Old Fashioned. <br> 
     </div>
     <br>
-
-    <!-- <div>
-      When I'm not coding, you can probably find me on the back of a good horse on my family's ranch or pretending I know how to drive a manual car in Europe. 
-    </div> -->
     <div class="about-icon-container">
       <div class="icon-content">
         <svg class="about-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
