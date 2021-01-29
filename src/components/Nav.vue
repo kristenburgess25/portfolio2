@@ -1,12 +1,14 @@
 <template>
-    <div id="nav-container">
+    <div class="nav-container">
     <nav :styleclass="styleclass">
         <a href="/#about">About</a> |
         <a href="/#work">Work</a> |
         <a href="/#play">Play</a> |
         <a href="/#contact">Contact</a>
     </nav>
+    <a href="/#home">
     <img id="logo" src="../../apple-touch-icon.png"/>
+    <a/>
     <div>
 </template>
 
@@ -38,7 +40,7 @@ export default {
 }
 
 
-#nav-container {
+.nav-container {
     display: flex;
     position: fixed; 
     width: 100%;

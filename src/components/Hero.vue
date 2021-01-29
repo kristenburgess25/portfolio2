@@ -1,24 +1,11 @@
 <template>
-  <app-section :styleclass="styleclass">
+  <app-section id="home" :styleclass="styleclass">
 
     <div class="banner-container">
-
- 
-        <!-- <img src="https://i.imgur.com/XizsJ1c.jpg" title="source: imgur.com" /> -->
-
         <div class="section-title-wrapper">
         <h2 class="banner-text"> Kristen Burgess </h2>
          <div class="title-underline"></div>
         </div>
-
-
-
-      <!-- <vue-p5
-        @preload="preload"
-        @setup="setup"
-        @draw="draw"
-      >
-    </vue-p5> -->
     </div>
   </app-section>
 </template>
@@ -65,10 +52,7 @@ export default {
     width: 100vw;
     object-fit: cover;
     height: 700px;
-
   }
-
-  
 
   .banner-container {
     margin-top: 40px;
@@ -86,7 +70,11 @@ export default {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+  }
 
-    
+  @media (max-width: 500px) {
+    #logo {
+      visibility: hidden;
+    }
   }
 </style>
