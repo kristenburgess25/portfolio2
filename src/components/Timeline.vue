@@ -62,7 +62,7 @@ export default {
 <style lang="css">
 
 .about-content {
-  width: 75%;
+  width: 90%;
 }
 
 h3 {
