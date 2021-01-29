@@ -1,5 +1,5 @@
 <template>
-  <app-section :styleclass="styleclass">
+  <app-section id="about" :styleclass="styleclass">
     <div class="section-title-wrapper">
       <h1 class="section-title">About</h1>
       <div class="title-underline"></div>

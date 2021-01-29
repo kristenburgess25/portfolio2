@@ -1,5 +1,6 @@
 <template>
   <div>
+    <nav-bar></nav-bar>
     <hero></hero>
     <timeline></timeline>
     <clients></clients>
@@ -9,6 +10,7 @@
 </template>
 
 <script>
+import Nav from './Nav.vue'
 import Hero from './Hero.vue';
 import Timeline from './Timeline.vue';
 import Projects from './Projects.vue';
@@ -18,6 +20,7 @@ import Contact from './Contact.vue';
 export default {
   name: 'Home',
   components: {
+    'nav-bar': Nav,
     'hero': Hero,
     'timeline': Timeline,
     'projects': Projects,

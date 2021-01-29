@@ -71,6 +71,7 @@ export default {
   
 
   .banner-container {
+    margin-top: 40px;
     display: flex;
     justify-content: center;
     overflow: hidden;

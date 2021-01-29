@@ -1,5 +1,5 @@
 <template>
-  <app-section :styleclass="styleclass">
+  <app-section id="play" :styleclass="styleclass">
     <div class="section-title-wrapper">
       <h1 class="section-title">Play</h1>
       <div class="title-underline"></div>
