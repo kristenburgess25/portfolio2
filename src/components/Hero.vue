@@ -3,7 +3,7 @@
 
     <div class="banner-container">
         <div class="section-title-wrapper">
-        <h2 class="banner-text"> Kristen Burgess </h2>
+        <!-- <h2 class="banner-text"> Kristen Burgess </h2> -->
          <div class="title-underline"></div>
         </div>
     </div>
@@ -12,13 +12,11 @@
 
 <script>
 import Section from './Section.vue';
-import VueP5 from 'vue-p5';
 
 export default {
   name: 'Hero',
   components: {
     'app-section': Section,
-    'vue-p5': VueP5,
   },
   data () {
     return {
@@ -50,8 +48,9 @@ export default {
 
   img {
     width: 100vw;
+    height: auto;
     object-fit: cover;
-    height: 700px;
+
   }
 
   .banner-container {
@@ -60,7 +59,7 @@ export default {
     justify-content: center;
     overflow: hidden;
     width: 100%;
-    height: 645px;
+    height: 100vh;
     position: relative;
     text-align: center;
     background: url('https://i.imgur.com/XizsJ1c.jpg') no-repeat center center fixed;
@@ -72,9 +71,4 @@ export default {
     background-size: cover;
   }
 
-  @media (max-width: 500px) {
-    #logo {
-      visibility: hidden;
-    }
-  }
 </style>

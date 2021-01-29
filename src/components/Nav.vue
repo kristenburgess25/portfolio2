@@ -67,42 +67,17 @@ a {
   font-family: 'Roboto Slab', serif;
   font-size: 1rem;
   margin: 0px 10px;
-  
 }
 
 a:hover {
     color: #a044ff;
 }
 
-  .contact-body {
-    line-height: 1.5;
-  }
+@media (max-width: 500px) {
+#logo {
+    visibility: hidden;
+}
+}
 
-  .contact-icon-container {
-    display: flex;
-    justify-content: space-between;
-    margin: 2rem 0;
-  }
 
-  .icon-link {
-    display: inline-block;
-    margin: 0 0.5rem;
-  }
-
-  .icon {
-    fill: #fdfcff;
-    transition: 200ms;
-    transition-timing-function: ease-in-out;
-    -webkit-transition: 200ms;
-    -webkit-transition-timing-function: ease-in-out;
-  }
-
-  .icon:hover {
-    fill: #a044ff;
-    cursor: pointer;
-  }
-
-  .email-text {
-    margin-bottom: 2rem;
-  }
 </style>
