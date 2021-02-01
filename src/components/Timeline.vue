@@ -4,10 +4,24 @@
       <h1 class="section-title">About</h1>
       <div class="title-underline"></div>
     </div>
-    <div class="about-content">I'm a cowgirl/rancher and software engineer located in the Sandhills of Nebraska.
-    </div>
-    <br>
-    <div class="about-content"> Professionally, I am most passionate about bringing creative tech solutions to underserved markets- particularly the agricultural industry. <br>  Personally, I am most passionate about world travel, live music, buttery pastries, spicy tacos, speedy horses, "good" books, and a well made Old Fashioned. <br> 
+    <div class="about-top-section">
+
+        <div class="headshot-container">
+        <img src="https://i.imgur.com/io5PKEg.jpg?1" title="headshot" />
+        </div>
+
+      <div class="about-content-container"> 
+        <div class="about-content">Howdy! My name's Kristen Burgess, and I'm a fourth generation cowgirl/rancher and first generation software engineer. I live and work on my family's cattle ranches in the Sandhills of Nebraska. 
+        </div>
+        <!-- <div class="about-content"> I am entrepreneurial, self-motivated, a quick learner, highly personable, and an exceptional communicator. I work well both independently and collaboratively. I thrive on challenges and am constantly striving to improve and grow.
+        </div> -->
+        <br>
+        <div class="about-content"> Professionally, I am most passionate about bringing creative tech solutions to underserved markets- particularly the agricultural industry.
+        </div>
+        <br> 
+        <div class="about-content"> Personally, I am most passionate about world travel, live music, a good [grass-fed Angus] steak, buttery pastries, speedy horses, and a well crafted Old Fashioned. 
+        </div>
+      </div>
     </div>
     <!-- <div>
       When I'm not coding, you can probably find me on the back of a good horse on my family's ranch or pretending I know how to drive a manual car in Europe. 
@@ -62,8 +76,31 @@ export default {
 <style lang="css">
 
 .about-content {
-  width: 75%;
+  text-align: left;
+  margin: auto 10px;
+
 }
+
+.about-top-section {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  background: white;
+  color: black;
+  padding: 20px;
+  border-radius: 0.5rem;
+}
+
+.headshot-container {
+  margin: auto 10px;
+}
+
+img {
+  width: 200px;
+  border-radius: 0.5rem;
+
+}
+
 
 h3 {
   color:#a044ff;
@@ -118,6 +155,17 @@ h3:hover {
   height: 5rem;
   fill: #a044ff;
   width: 5rem;
+}
+
+@media (max-width: 500px) {
+  .headshot-container {
+    margin: 10px auto;  
+  }
+  
+  .about-top-section {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 @media screen and (min-width: 48rem) {
