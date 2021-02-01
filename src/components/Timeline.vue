@@ -7,14 +7,16 @@
     <div class="about-top-section">
 
         <div class="headshot-container">
-        <img src="https://i.imgur.com/io5PKEg.jpg?1" title="source: imgur.com" />
+        <img src="https://i.imgur.com/io5PKEg.jpg?1" title="headshot" />
         </div>
 
       <div class="about-content-container"> 
-        <div class="about-content">I'm a cowgirl/rancher and software engineer located in the Sandhills of Nebraska.
+        <div class="about-content">Howdy! My name's Kristen Burgess, and I'm a fourth generation cowgirl/rancher and first generation software engineer. I live and work on my family's cattle ranches in the Sandhills of Nebraska. 
         </div>
+        <!-- <div class="about-content"> I am entrepreneurial, self-motivated, a quick learner, highly personable, and an exceptional communicator. I work well both independently and collaboratively. I thrive on challenges and am constantly striving to improve and grow.
+        </div> -->
         <br>
-        <div class="about-content"> Professionally, I am most passionate about bringing creative tech solutions to underserved markets- particularly the agricultural industry. <br>  Personally, I am most passionate about world travel, live music, buttery pastries, spicy tacos, speedy horses, "good" books, and a well made Old Fashioned. <br> 
+        <div class="about-content"> Professionally, I am most passionate about bringing creative tech solutions to underserved markets- particularly the agricultural industry. <br><br>  Personally, I am most passionate about world travel, live music, a good (grass-fed Angus) steak, buttery pastries, speedy horses, and a well crafted Old Fashioned. <br> 
         </div>
       </div>
     </div>
@@ -71,7 +73,7 @@ export default {
 <style lang="css">
 
 .about-content {
-  /* width: 75%; */
+  text-align: left;
 
 }
 
