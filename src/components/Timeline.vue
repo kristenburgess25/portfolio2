@@ -16,7 +16,10 @@
         <!-- <div class="about-content"> I am entrepreneurial, self-motivated, a quick learner, highly personable, and an exceptional communicator. I work well both independently and collaboratively. I thrive on challenges and am constantly striving to improve and grow.
         </div> -->
         <br>
-        <div class="about-content"> Professionally, I am most passionate about bringing creative tech solutions to underserved markets- particularly the agricultural industry. <br><br>  Personally, I am most passionate about world travel, live music, a good (grass-fed Angus) steak, buttery pastries, speedy horses, and a well crafted Old Fashioned. <br> 
+        <div class="about-content"> Professionally, I am most passionate about bringing creative tech solutions to underserved markets- particularly the agricultural industry.
+        </div>
+        <br> 
+        <div class="about-content"> Personally, I am most passionate about world travel, live music, a good [grass-fed Angus] steak, buttery pastries, speedy horses, and a well crafted Old Fashioned. 
         </div>
       </div>
     </div>
@@ -74,6 +77,7 @@ export default {
 
 .about-content {
   text-align: left;
+  margin: auto 10px;
 
 }
 
@@ -85,17 +89,16 @@ export default {
   color: black;
   padding: 20px;
   border-radius: 0.5rem;
-
-  /* flex-direction: row; */
 }
 
 .headshot-container {
-  /* margin-left: 100px; */
-  margin: 0 10px;
+  margin: auto 10px;
 }
 
 img {
   width: 200px;
+  border-radius: 0.5rem;
+
 }
 
 
@@ -152,6 +155,17 @@ h3:hover {
   height: 5rem;
   fill: #a044ff;
   width: 5rem;
+}
+
+@media (max-width: 500px) {
+  .headshot-container {
+    margin: 10px auto;  
+  }
+  
+  .about-top-section {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 @media screen and (min-width: 48rem) {
