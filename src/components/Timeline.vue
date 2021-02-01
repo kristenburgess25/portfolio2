@@ -4,12 +4,24 @@
       <h1 class="section-title">About</h1>
       <div class="title-underline"></div>
     </div>
-    <div class="about-content">Howdy! My name's Kristen Burgess. I'm a fourth generation cowgirl/rancher and first generation software engineer. I live and work on my family's cattle ranches in the Sandhills of Nebraska. 
-    </div>
-    <!-- <div class="about-content"> I am entrepreneurial, self-motivated, a quick learner, highly personable, and an exceptional communicator. I work well both independently and collaboratively. I thrive on challenges and am constantly striving to improve and grow.
-    </div> -->
-    <br>
-    <div class="about-content"> Professionally, I am most passionate about bringing creative tech solutions to underserved markets- particularly the agricultural industry. <br><br>  Personally, I am most passionate about world travel, live music, a good (grass-fed Angus) steak, buttery pastries, speedy horses, and a well crafted Old Fashioned. <br> 
+    <div class="about-top-section">
+
+        <div class="headshot-container">
+        <img src="https://i.imgur.com/io5PKEg.jpg?1" title="headshot" />
+        </div>
+
+      <div class="about-content-container"> 
+        <div class="about-content">Howdy! My name's Kristen Burgess, and I'm a fourth generation cowgirl/rancher and first generation software engineer. I live and work on my family's cattle ranches in the Sandhills of Nebraska. 
+        </div>
+        <!-- <div class="about-content"> I am entrepreneurial, self-motivated, a quick learner, highly personable, and an exceptional communicator. I work well both independently and collaboratively. I thrive on challenges and am constantly striving to improve and grow.
+        </div> -->
+        <br>
+        <div class="about-content"> Professionally, I am most passionate about bringing creative tech solutions to underserved markets- particularly the agricultural industry.
+        </div>
+        <br> 
+        <div class="about-content"> Personally, I am most passionate about world travel, live music, a good [grass-fed Angus] steak, buttery pastries, speedy horses, and a well crafted Old Fashioned. 
+        </div>
+      </div>
     </div>
     <br>
     <div class="about-icon-container">
@@ -18,7 +30,7 @@
           <title>School</title>
           <path d="M40 10l36.719 20v26.719h-6.719v-23.125l-30 16.406-36.719-20zM16.719 43.906l23.281 12.813 23.281-12.813v13.438l-23.281 12.656-23.281-12.656v-13.438z"></path>
         </svg>
-        <h2></h2>
+
         <div>I attended a small liberal arts college where I obtained degrees in Political Science and English. My study abroad experiences in Germany and Africa were the most impactful parts of my undergraduate education. My deep interest in software engineering came from one of my first jobs after college, which led me to Turing School of Software and Design.  </div>
       </div>
       <div class="icon-content">
@@ -26,7 +38,7 @@
           <title>Work</title>
           <path d="M46.719 20v-6.719h-13.438v6.719h13.438zM66.719 20c3.75 0 6.563 2.969 6.563 6.719v36.563c0 3.75-2.813 6.719-6.563 6.719h-53.438c-3.75 0-6.563-2.969-6.563-6.719v-36.563c0-3.75 2.813-6.719 6.563-6.719h13.438v-6.719c0-3.75 2.813-6.563 6.563-6.563h13.438c3.75 0 6.563 2.813 6.563 6.563v6.719h13.438z"></path>
         </svg>
-        <h2></h2>
+
         <div> Prior to working in the tech industry, I was a paralegal. In tech, I have worked for a number of startups and have filled a wide variety of roles- sales, marketing, product management, project management, development, tech lead. I have a very diverse set of skills, and I pride myself on my ability to wear many hats. 
         <br>
         <a id="resume-link" href="https://resume.creddle.io/resume/e2ocwahn9w" target="_blank"> <h3> Résumé </h3> </a>
@@ -37,7 +49,7 @@
           <title>Code</title>
           <path d="M48.594 55.313l15.469-15.313-15.469-15.313 4.688-4.688 20 20-20 20zM31.406 55.313l-4.688 4.688-20-20 20-20 4.688 4.688-15.469 15.313z"></path>
         </svg>
-        <h2></h2>
+   
         <div>I strive to create code that is readable, testable, maintainable, and accessible. I try to always be considerate of other developers- and my future self- who will have to work with my code. While my primary focus is on all things front end, I enjoy exploring all areas of the stack. (Oh, and I always remove the profanity from my console logs before pushing to master.)  </div>
       </div>
     </div>
@@ -63,7 +75,29 @@ export default {
 
 .about-content {
   width: 90%;
+  text-align: left;
+  margin: auto 10px;
 }
+
+.about-top-section {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  background: white;
+  color: black;
+  padding: 20px;
+  border-radius: 0.5rem;
+}
+
+.headshot-container {
+  margin: auto 10px;
+}
+
+img {
+  width: 200px;
+  /* border-radius: 0.5rem; */
+}
+
 
 h3 {
   color:#a044ff;
@@ -118,6 +152,17 @@ h3:hover {
   height: 5rem;
   fill: #a044ff;
   width: 5rem;
+}
+
+@media (max-width: 500px) {
+  .headshot-container {
+    margin: 10px auto;  
+  }
+  
+  .about-top-section {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 @media screen and (min-width: 48rem) {

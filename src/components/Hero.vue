@@ -6,6 +6,7 @@
         <!-- <h2 class="banner-text"> Kristen Burgess </h2> -->
          <div class="title-underline"></div>
         </div>
+
     </div>
   </app-section>
 </template>
@@ -35,7 +36,7 @@ export default {
   .banner-text {
     position: absolute;
     color: #231b4e;
-    top: 10%;
+    top: 8%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: 'Roboto Slab', serif;
@@ -50,7 +51,6 @@ export default {
     width: 100vw;
     height: auto;
     object-fit: cover;
-
   }
 
   .banner-container {
