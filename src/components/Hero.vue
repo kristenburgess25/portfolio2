@@ -47,12 +47,6 @@ export default {
     letter-spacing: 3px;
   }
 
-  img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-  }
-
   .banner-container {
     margin-top: 40px;
     display: flex;
@@ -69,6 +63,13 @@ export default {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+  }
+
+  @media(max-width: 500px) {
+    .banner-container{
+      background: url('https://i.imgur.com/XizsJ1c.jpg') no-repeat center center scroll;
+      background-size: cover;
+    }
   }
 
 </style>
