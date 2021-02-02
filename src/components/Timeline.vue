@@ -50,7 +50,7 @@
           <path d="M48.594 55.313l15.469-15.313-15.469-15.313 4.688-4.688 20 20-20 20zM31.406 55.313l-4.688 4.688-20-20 20-20 4.688 4.688-15.469 15.313z"></path>
         </svg>
    
-        <div>I strive to create code that is readable, testable, maintainable, and accessible. I try to always be considerate of other developers- and my future self- who will have to work with my code. While my primary focus is on all things front end, I enjoy exploring all areas of the stack. (Oh, and I always remove the profanity from my console logs before pushing to master.)  </div>
+        <div>I strive to create code that is readable, testable, maintainable, and accessible. I try to always be considerate of other developers- and my future self- who will have to work with my code. While primary focus is on all things front end, I enjoy exploring all areas of the stack. I am most fond of VueJS, but am perfectly comfortable with React and Angular. </div>
       </div>
     </div>
   </app-section>
