@@ -157,7 +157,7 @@ h3:hover {
   width: 5rem;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 650px) {
   .headshot-container {
     margin: 10px auto;  
   }
@@ -165,6 +165,11 @@ h3:hover {
   .about-top-section {
     display: flex;
     flex-direction: column;
+  }
+
+  .about-content {
+    margin: 10px auto;
+    text-align: center;
   }
 }
 
