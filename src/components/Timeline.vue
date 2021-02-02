@@ -83,8 +83,11 @@ export default {
   display: flex;
   justify-content: space-around;
   width: 90%;
-  background: white;
-  color: black;
+  /* background: white; */
+  color: white;
+  background: #2a0845;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(140deg, #2a0845, #a044ff); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(140deg, #2a0845, #a044ff);
   padding: 20px;
   border-radius: 0.5rem;
 }
