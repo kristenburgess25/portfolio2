@@ -75,9 +75,13 @@ a:hover {
 }
 
 @media (max-width: 500px) {
-#logo {
+    #logo {
     visibility: hidden;
-}
+    }
+
+    .nav-link {
+        font-size: 1rem;
+    }
 }
 
 
