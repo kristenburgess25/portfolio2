@@ -6,9 +6,9 @@
         <a href="/#play">Play</a> |
         <a href="/#contact">Contact</a>
     </nav>
-    <a href="/#home">
+    <!-- <a href="/#home">
     <img id="logo" src="../../apple-touch-icon.png"/>
-    <a/>
+    <a/> -->
     <div>
 </template>
 
@@ -47,7 +47,7 @@ export default {
     top: 0;
     z-index: 100;
     background-color: #2B303A;
-    color: white;
+    color: #a044ff;
     height: 40px;
     text-decoration: none;
     padding-left: 10px;
