@@ -1,5 +1,5 @@
 <template>
-  <app-section :styleclass="styleclass">
+  <app-section id="about" :styleclass="styleclass">
     <div class="section-title-wrapper">
       <h1 class="section-title">About</h1>
       <div class="title-underline"></div>
@@ -23,9 +23,7 @@
         </div>
       </div>
     </div>
-    <!-- <div>
-      When I'm not coding, you can probably find me on the back of a good horse on my family's ranch or pretending I know how to drive a manual car in Europe. 
-    </div> -->
+    <br>
     <div class="about-icon-container">
       <div class="icon-content">
         <svg class="about-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
@@ -76,17 +74,20 @@ export default {
 <style lang="css">
 
 .about-content {
+  width: 90%;
   text-align: left;
   margin: auto 10px;
-
 }
 
 .about-top-section {
   display: flex;
   justify-content: space-around;
   width: 90%;
-  background: white;
-  color: black;
+  /* background: white; */
+  color: white;
+  background: #2a0845;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(140deg, #2a0845, #a044ff); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(140deg, #2a0845, #a044ff);
   padding: 20px;
   border-radius: 0.5rem;
 }
@@ -97,8 +98,7 @@ export default {
 
 img {
   width: 200px;
-  border-radius: 0.5rem;
-
+  /* border-radius: 0.5rem; */
 }
 
 
@@ -157,7 +157,7 @@ h3:hover {
   width: 5rem;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 650px) {
   .headshot-container {
     margin: 10px auto;  
   }
@@ -165,6 +165,11 @@ h3:hover {
   .about-top-section {
     display: flex;
     flex-direction: column;
+  }
+
+  .about-content {
+    margin: 10px auto;
+    text-align: center;
   }
 }
 

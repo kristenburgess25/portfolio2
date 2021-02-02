@@ -1,6 +1,6 @@
 <template>
   <app-section :styleclass="styleclass">
-    <div class="section-title-wrapper">
+    <div id="contact" class="section-title-wrapper">
       <h1 class="section-title">Connect</h1>
       <div class="title-underline"></div>
     </div>

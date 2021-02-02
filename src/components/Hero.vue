@@ -1,11 +1,12 @@
 <template>
-  <app-section :styleclass="styleclass">
+  <app-section id="home" :styleclass="styleclass">
 
     <div class="banner-container">
-      <div class="section-title-wrapper">
-        <h2 class="banner-text"> Kristen Burgess </h2>
-        <div class="title-underline"></div>
-      </div>
+        <div class="section-title-wrapper">
+        <!-- <h2 class="banner-text"> Kristen Burgess </h2> -->
+         <div class="title-underline"></div>
+        </div>
+
     </div>
   </app-section>
 </template>
@@ -16,7 +17,7 @@ import Section from './Section.vue';
 export default {
   name: 'Hero',
   components: {
-    'app-section': Section
+    'app-section': Section,
   },
   data () {
     return {
@@ -44,14 +45,15 @@ export default {
     margin: 1rem 0 0rem;
     text-align: center;
     letter-spacing: 3px;
-  } 
+  }
 
   .banner-container {
+    margin-top: 40px;
     display: flex;
     justify-content: center;
     overflow: hidden;
     width: 100%;
-    height: 100vh;;
+    height: 100vh;
     position: relative;
     text-align: center;
     background: url('https://i.imgur.com/XizsJ1c.jpg') no-repeat center center fixed;
@@ -61,7 +63,13 @@ export default {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
-    
   }
+
+  @media(max-width: 500px) {
+    .banner-container{
+      background: url('https://i.imgur.com/XizsJ1c.jpg') no-repeat center center scroll;
+      background-size: cover;
+    }
+  }
+
 </style>
