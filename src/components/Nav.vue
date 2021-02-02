@@ -1,10 +1,11 @@
 <template>
     <div class="nav-container">
     <nav :styleclass="styleclass">
-        <a href="/#about">About</a> |
-        <a href="/#work">Work</a> |
-        <a href="/#play">Play</a> |
-        <a href="/#contact">Contact</a>
+        <!-- <a class="nav-link" href="/#home">Home</a> | -->
+        <a class="nav-link" href="/#about">About</a> |
+        <a class="nav-link" href="/#work">Work</a> |
+        <a class="nav-link" href="/#play">Play</a> |
+        <a class="nav-link" href="/#contact">Contact</a>
     </nav>
     <!-- <a href="/#home">
     <img id="logo" src="../../apple-touch-icon.png"/>
@@ -61,11 +62,11 @@ nav {
 
 
 
-a {
+.nav-link {
   text-decoration: none;
   color: white;
   font-family: 'Roboto Slab', serif;
-  font-size: 1rem;
+  font-size: 1.1rem;
   margin: 0px 10px;
 }
 
